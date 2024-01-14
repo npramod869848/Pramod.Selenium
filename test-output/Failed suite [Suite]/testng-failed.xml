@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Testonmsedge(failed)(failed)">
+    <parameter name="browser" value="msedge"/>
+    <classes>
+      <class name="TestNG.TestNG.CBT">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="Quit"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.CBT -->
+    </classes>
+  </test> <!-- Testonmsedge(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
